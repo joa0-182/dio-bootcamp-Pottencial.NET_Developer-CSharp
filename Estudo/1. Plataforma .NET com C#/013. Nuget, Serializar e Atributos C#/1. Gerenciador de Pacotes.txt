@@ -1,0 +1,6 @@
+O que é um pacote?
+
+Um pacote é um conjunto de códigos úteis, que possibilita o compartilhamento e reuso do código.
+
+
+É um pequeno projeto no C#, que resolve um determinado tipo de problema, não só resolver, mas pode ajuda em orientações.

@@ -1,0 +1,3 @@
+Entender como o metodo passado, foi parar no swagger.
+
+o [HttpGet("ObterDataHoraAtual")] aparece na url, e tanto no Swagger, e tudo que a gente fez de obter data e hora atual, é como se disponibilizasse o Metodo na API e que pode disponibilizar na internet depois.

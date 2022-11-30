@@ -1,0 +1,11 @@
+Em meus produtos, eu quero saber a quantidade de produtos que tenho do tamanho P, M e G.
+
+
+SELECT Tamanho, COUNT(*) QtdeProdutos FROM PRODUTOS GROUP BY Tamanho
+
+
+pode vir coisas que não tem tamanho, como um boné, ai pode se fazer uma condição que onde o valor estiver vazio, não vai aparecer.
+
+
+
+SELECT Tamanho, COUNT(*) QtdeProdutos FROM PRODUTOS WHERE Tamanho <> '' GROUP BY Tamanho

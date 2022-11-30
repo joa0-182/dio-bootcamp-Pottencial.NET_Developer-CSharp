@@ -1,0 +1,13 @@
+fazendo um if, até onde a variavel quer que pare, e colocar um Break;
+
+int numero = 10;
+int contador = 0;
+
+while(contador <= 10){
+    Console.WriteLine($"{contador + 1}° Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
+
+    if(contador == 5) {
+        break;
+    }
+}

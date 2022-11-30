@@ -1,0 +1,13 @@
+Descobrir o valor maximo e o valor minimo de uma tabela
+
+
+SELECT MAX(Preco) FROM Produtos
+
+SELECT MIN(Preco) FROM Produtos
+
+
+
+AVG, valor médio, a média
+
+
+Exemplo: quero saber a média do valor dos meus produtos

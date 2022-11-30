@@ -1,0 +1,34 @@
+API(Application Programming Interface) é uma forma de comunicação entre computadores ou programas de computadores
+
+
+Em outras palavras, é um software que fornece informações para outro software.
+
+
+
+
+O proprio site da DIO, a gente usa sem perceber que está acontecendo uma API, a comunicação entre Back-end e Front-end.
+
+
+Ela serve para buscar uma informação em outro sistema/lugar e retorna essa informação.
+
+
+
+
+Exemplo Restaurante
+
+
+Cliente - Aplicação
+
+Garçon - API
+
+Cozinha - Servidor
+
+
+
+
+
+Front-end - Usuario
+
+API - Backend
+
+Banco de dados

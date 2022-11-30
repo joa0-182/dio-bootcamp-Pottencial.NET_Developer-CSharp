@@ -1,0 +1,6 @@
+Personalizando, colocando uma mascara
+
+
+decimal telefone = 14991305098;
+
+Console.WriteLine(telefone.ToString("(##) #####-####"));

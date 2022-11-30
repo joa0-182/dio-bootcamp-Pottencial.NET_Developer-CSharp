@@ -1,0 +1,9 @@
+POST - Create (enviando uma nova informação para a API)
+
+GET - Read (obter alguma informação, por id, nome, é o retorno de uma informação)
+
+PUT - Update/Replace (atualizar alguma informação JÁ EXISTENTE, e atualizar todas as demandas)
+
+PATCH - Update/Modify (Atualizações e Modificações, por algo parcial, atualizando 1 uma só ou mais informações)
+
+DELETE - Delete (Deletar algum recurso existente)

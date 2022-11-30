@@ -1,0 +1,3 @@
+Tipo de valor: Variável de um tipo de valor contém uma instância do tipo. alocada na memoria stack, e que possui um tipo de valor também.
+
+Tipo de Referência: Variável de um tipo de referência a uma instância do tipo. vai apontar um determinado endereço da memoria Heap.

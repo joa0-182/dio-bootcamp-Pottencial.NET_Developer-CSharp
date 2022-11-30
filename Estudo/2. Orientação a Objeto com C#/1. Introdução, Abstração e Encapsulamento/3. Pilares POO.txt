@@ -1,0 +1,13 @@
+Abstração
+
+
+abstrair um objeto do mundo real para um contexto específico considerando apenas os atributos importantes.
+
+
+Pessoa
+
++Nome: string
++Idade: int
++Cpf: decimal
+
++apresentar()

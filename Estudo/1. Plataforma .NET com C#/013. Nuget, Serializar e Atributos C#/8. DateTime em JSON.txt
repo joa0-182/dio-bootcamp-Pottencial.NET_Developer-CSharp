@@ -1,0 +1,63 @@
+public class Venda
+    {
+
+        public Venda(int id, String produto, decimal preco, DateTime dataVenda)
+        {
+            Id = id;
+            Produto = produto;
+            Preco = preco;
+            DataVenda = dataVenda;
+        }
+
+        public int Id { get; set; }
+        public string Produto { get; set; }
+        public decimal Preco { get; set; }
+        public DateTime DataVenda { get; set; }
+    }
+}
+
+
+
+
+
+
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Licença de Software", 125.00M, dataAtual);
+
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+Console.WriteLine(serializado);
+
+File.WriteAllText("Arquivos/vendas.js", serializado);
+
+
+
+
+JSON
+
+[
+  {
+    "Id": 1,
+    "Produto": "Material de escritório",
+    "Preco": 25.00,
+    "DataVenda": "2022-10-26T00:38:27.2242681-03:00"
+  },
+  {
+    "Id": 2,
+    "Produto": "Licença de Software",
+    "Preco": 125.00,
+    "DataVenda": "2022-10-26T00:38:27.2242681-03:00"
+  }
+]
+
+
+ele vem num formate de datetime estranho, mas isso porque ele está dentro da ISO 8601, a padronização de DateTime nas linguagens.

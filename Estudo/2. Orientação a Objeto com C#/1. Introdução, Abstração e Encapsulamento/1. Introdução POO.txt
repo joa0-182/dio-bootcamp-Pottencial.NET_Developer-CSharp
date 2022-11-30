@@ -1,0 +1,20 @@
+Programação Orientada a Objetos(POO), técnica de programação para um fim específico.
+
+Quatro pilares:
+
+.Abstração
+.Encapsulamento
+.Herança
+.Polimorfismo
+
+
+
+
+Principal Conceito
+
+Classes e Objetos
+
+
+Classe - representação de um objeto da vida real
+
+Objeto - é a classe concretizada, é o que se torna real na programação.

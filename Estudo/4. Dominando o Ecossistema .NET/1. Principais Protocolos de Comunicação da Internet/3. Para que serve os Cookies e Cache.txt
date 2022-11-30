@@ -1,0 +1,37 @@
+O HTTP possui o Stateless, e o Client/Server
+
+
+
+Qual a função do Cookie?
+
+Dar um TRACK, pequenos pedaços ou blocos de dados criados e utilizados pelo servidor para persistir dados no dispositivo do cliente
+
+Rastrear as Informações do cliente
+
+
+Eles estão dentro do HEADER FILE
+
+
+
+Existem dois tipos de Cookies, os de Sessão e Persistentes
+
+Cookie de Sessão, quando finalizar sua sessão a um site eles vão embora
+
+Cookie Persistente são mantido por Meses ou Anos dentro do computador, isso acontece quando se mantem o Login ativo.
+
+Exemplo de usos de Cookies: Carrinho de ecommerce, Manter logins ativos, Carrinho de ecommerce
+
+
+Porém....dentro do computador, tem todas essa sinformações são guardadas sobre você, a seu perfil de consumo da internet, sobre o perfil de pesquisa, eles são invasivos
+
+
+Eles estão seguros? sim, quanto a seu computador, mas se por ventura voce sofrer um ataque hacking, ele pode usa o seus cookies a seu favor para faciliar o hacking, por mais que eles são criptografados, criptografia se quebra..
+
+
+
+
+
+
+Cache
+
+Quando se vai fazer uma requisição web, o Proxy server analisa se eu ja tenho essa informações e se elas mudaram, ele compara com o que tem e o que chego.

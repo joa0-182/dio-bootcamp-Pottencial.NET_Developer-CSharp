@@ -1,0 +1,6 @@
+.NET Framework funciona só funciona em windows.
+
+.NET funciona em multipla prataforma, versão atual.
+
+
+

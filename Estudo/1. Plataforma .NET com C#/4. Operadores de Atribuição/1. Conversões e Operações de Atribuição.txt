@@ -1,0 +1,70 @@
+Cast ou Casting - Conversão
+
+int a = "5"; ( <-- NÃO DA)
+
+
+int a = Convert.ToInt32("5");
+
+
+Convert é uma clase, e depois dessa classe, a vários metodos para conversão, e como a conversão ToInt32 é um metodo, abresse paretenses()
+
+
+Console.WhireLine(a); assim, na conversão vai da certo.
+
+
+
+
+quando o valor for nulo, o Convert.ToInt32(null); funciona, mas o int.Parse(null); não
+
+
+
+
+
+
+CONVERSÃO PARA STRING
+
+exemplo:
+
+int inteiro = 5;
+
+string a = inteiro.ToString();
+
+
+TODO TIPO PODE SER REPRESENTANDO POR ToString
+
+
+
+
+Cast IMPLICITO, ele faz automaticamente 
+
+
+
+exemplo:
+
+int a = 5;
+double b = a;
+
+
+ele já aceita isso, um inteiro cabe no double, o double suporta os valores do inteiro, e muito mais.
+
+
+se fizer ao contrário, claramente vai da erro, o int não suporta o double, ou o long.
+
+
+
+ORDEM DOS OPERADORES
+
+segue a ordem da matemática
+
+exemplo
+
+4 / 2 + 2 = 4
+
+4 / (2 + 2) = 1
+
+
+
+
+Convertendo da maneira mais segura, reparando os erros usando o Tryparse (espera que dê erro)
+
+

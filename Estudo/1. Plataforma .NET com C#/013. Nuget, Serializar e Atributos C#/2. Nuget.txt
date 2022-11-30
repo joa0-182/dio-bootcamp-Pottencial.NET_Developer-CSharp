@@ -1,0 +1,4 @@
+Gerenciador de pacotes, que permite desenvolvedores compartilharem códigos e bibliotecas.
+
+
+EXCLUSIVO DO DOTNET, se fosse usar um Java, teria o tipo de gerenciamento de pacotes deles.

@@ -1,0 +1,47 @@
+Tuplas
+
+fornece sintaxe concisa para agrupar vários elementos de dados em uma estrutura de dados leve.
+
+
+é uma coleção, mas não é uma coleção do mesmo tipo, pode retorna vários valores, de tipos diferente, em uma variavel
+
+
+na pratica:
+3 tipos de informação
+
+Id(identificação publica)
+Nome
+Sobrenome
+
+("tipos de dado") nomeVariavel = (dados)
+
+
+(int Id, string Nome, string Sobrenome) tuplaExemplo = (1, "João Pedro", "Maria");
+
+
+Console.WriteLine($"Id: {tuplaExemplo.Item1}");
+Console.WriteLine($"Nome: {tuplaExemplo.Item2}");
+Console.WriteLine($"Sobrenome: {tuplaExemplo.Item3}");
+
+
+
+
+
+
+há outras maneiras de representa uma tupla
+
+
+Segunda maneira
+
+ValueTuple<int, string, string> tuplaExemplo2 = (1, "João Pedro", "Maria");
+
+
+Terceira maneira 
+
+var tuplaExemplo3 = Tuple.Create(1, "João Pedro", "Maria");
+
+
+
+há desvantagem entre elas é que não consegue nomear os inteiros para chamar eles no Console.WriteLine
+
+(int Id, string Nome, string Sobrenome)

@@ -1,0 +1,4 @@
+Public, qualquer um pode acessar e instancia essa Classe
+
+
+Private, mais dificil, quem pode acessar é apenas dentro da classe. Somente a própria Classe pode acessar e modificar.

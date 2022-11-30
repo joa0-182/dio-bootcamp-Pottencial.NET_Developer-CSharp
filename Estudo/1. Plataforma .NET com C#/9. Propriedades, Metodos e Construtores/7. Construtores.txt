@@ -1,0 +1,74 @@
+Permitem que o programador defina valores padrão, limite a instanciação e grave códigos flexíveis e fáceis de ler.
+
+
+
+ele é criado logo a abaixo do nome da classe, é o primeiro item.
+
+
+public Pessoa()
+        {
+            
+        }
+
+
+é um construtor, TODO CONSTRUTOR DEVE TER O MESMO NOME DE SUA CLASSE. REGRA.
+
+
+
+TODA CLASSE DEVE HAVER UM CONSTRUTOR, E TODA CLASSE PODE HAVER MAIS DE 1 CONSTRUTOR
+
+public Pessoa()
+        {
+
+        }
+
+        public Pessoa(string nome, string Sobrenome)
+        {
+
+        }
+
+
+
+em resultado disso, o que usaria assim:
+
+Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome = "Joao Pedro";
+pessoa1.Sobrenome = "Maria";
+
+Pessoa pessoa2 = new Pessoa();
+pessoa2.Nome = "Pedro";
+pessoa2.Sobrenome = "Maria";
+
+
+
+ficaria assim: 
+
+
+Pessoa pessoa1 = new Pessoa("Joao Pedro", "Maria");
+Pessoa pessoa2 = new Pessoa("Pedro", "Maria");
+
+
+
+
+
+
+
+public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
+
+
+
+Nome (referece a propriedade Nome {public string Nome} e o nome referece a variavel {string nome}
+
+
+
+pode estanciar o parametro, para que a pessoa que for ver o seu codigo, e entender.
+
+
+Pessoa pessoa1 = new Pessoa(nome: "Joao Pedro", sobrenome: "Maria");
+Pessoa pessoa2 = new Pessoa("Pedro", "Maria");
+
+

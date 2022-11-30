@@ -1,0 +1,38 @@
+Abstração
+
+
+abstrair um objeto do mundo real para um contexto específico considerando apenas os atributos importantes.
+
+
+Pessoa
+
++Nome: string
++Idade: int
++Cpf: decimal
+
++apresentar()
+
+
+
+
+
+Encapsulamento
+
+
+Proteger uma Classe e definir limites para alteração de suas propriedades.
+
+Serve para ocultar seu comportamento e expor somente o necessário.
+
+
+
+exemplo:
+
+ContaCorrente
+
++Numero: int
+-Saldo: decimal
+
++Sacar(decimal valor)
+
+
+o saldo, tem o -, isso porque ela é privada

@@ -1,0 +1,12 @@
+Propriedade é um membro que oferece um mecanismo flexível para ler, gravar ou calcular o vaclor de um campo.
+
+Exemplo de classes
+
+Classe pessoa
+
+abstrair uma pessoa
+
+colocar o nome, idade, não coloca diretamente, e sim na classe
+
+
+QUANDO MODELAR UMA CLASSE, NÃO PREOCUPA COM OS VALORES NO MOMENTO, E SIM COMO REPRESENTA ESSE OBJETO

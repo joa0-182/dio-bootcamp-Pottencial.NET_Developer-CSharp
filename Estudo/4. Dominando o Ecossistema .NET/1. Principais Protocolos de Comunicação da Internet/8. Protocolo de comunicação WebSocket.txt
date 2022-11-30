@@ -1,0 +1,8 @@
+Diferença do WebSocket para o HTTP
+
+
+Aplicações como jogos web.
+
+Ele é uma encapsulamento do HTTP.
+
+Cookies para agradar a experiencia.

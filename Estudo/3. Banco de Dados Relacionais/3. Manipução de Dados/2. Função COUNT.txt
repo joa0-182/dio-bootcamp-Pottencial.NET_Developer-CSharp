@@ -1,0 +1,22 @@
+Conta quantas linhas tem na sua tabela com uma determinada condição(Quantos registros possui na tabela)
+
+
+em vez de usar o SELECT *
+
+usa o COUNT em vez do *
+
+
+SELECT COUNT(*) FROM "NomeTabela"
+
+
+
+por padrão ele retorna(No column name) porque ele é uma função, mas tem como da um nome para isso
+
+SELECT COUNT(*) TesteNome FROM "NomeTabela"
+
+
+ele o nome da "coluna" retornara TesteNome
+
+
+
+SELECT COUNT(*) QtdeProdutosM FROM Produtos WHERE Tamanho = 'M'

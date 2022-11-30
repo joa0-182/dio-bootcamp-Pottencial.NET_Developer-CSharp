@@ -1,0 +1,33 @@
+// uma linha
+
+
+/*
+
+
+*/ em varias linhas
+
+
+
+
+COMENTANDO EM CLASSES
+
+tem como comentar classes no c#
+
+configurando no vscode a opçao "Editor: format on type" e ativa a opção
+
+
+
+indo nas suas classes, em cima do public class e fazer "///" ele auto completa e apenas comentar.
+
+
+
+
+COMENTANDO EM METODOS
+
+
+fazendo mesmo em classes, usando o "///"
+
+
+/// <param name="x">O primeiro número inteiro para somar</param>
+
+/// <param name="y">O segundo número inteiro para somar</param>

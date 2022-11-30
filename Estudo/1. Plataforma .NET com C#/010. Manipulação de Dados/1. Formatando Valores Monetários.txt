@@ -1,0 +1,79 @@
+valores depois do . que representa a , na programação, tem que colocar o "M" no final do valor.
+
+exemplo
+
+decimal valorMonetario = 82.40M;
+
+dotnet run = 82,40
+
+
+
+
+CONVERTENDO PARA REAIS
+
+
+$"{valorMonetario:C}";
+
+
+USAR O "using System.Globalization;"
+
+Console.WriteLine(valorMonetário.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+
+
+
+
+
+
+
+PODE SE PERSONALIZAR, nao necessariamente ser de uma cultura especifica.
+
+
+1 casa decimal
+
+Console.WriteLine(valorMonetário.ToString("C1"));
+
+
+
+2 casa decimal
+
+Console.WriteLine(valorMonetário.ToString("C3"));
+
+
+
+
+3 casa decimal
+
+Console.WriteLine(valorMonetário.ToString("C3"));
+
+
+e por ai vai.....
+
+pode se considera o "N" em vez do "C" tbm.
+
+
+
+
+3 casa decimal
+
+Console.WriteLine(valorMonetário.ToString("N3"));
+
+
+
+
+
+
+
+
+
+
+
+tem como travar um tipo de cultura a um sistema, pra usar o valor monetario, fazendo um
+
+"using System.Globalization;"
+
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("NOME DA REGIÃO")
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR")
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US")

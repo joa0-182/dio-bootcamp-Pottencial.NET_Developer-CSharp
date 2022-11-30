@@ -1,0 +1,6 @@
+Porcentagem
+
+
+double porcentagem = .3227;
+
+Console.WriteLine(porcentagem.ToString("P"));

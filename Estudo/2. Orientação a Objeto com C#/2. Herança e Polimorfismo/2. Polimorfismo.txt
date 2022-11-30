@@ -1,0 +1,10 @@
+Muitas formas
+
+Com o polimorfismo, pode-se sobrescrever métodos das classes filhas para que se comportem de maneira diferente e ter sua própria implementação.
+
+
+
+As classes aluno e professor estão sobre o mesmo metodo de Apresentar. Na propria classe Pessoa, deve colocar o public VIRTUAL void, onde virtual significa que ele pode ser sobescrito se a classe desejar. 
+
+
+e na classe em que se deseja mudar o Apresentar, deve se colocar public OVERRIDE void, onde override significa "sobescreva". 

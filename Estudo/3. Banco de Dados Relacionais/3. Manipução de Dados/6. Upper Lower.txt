@@ -1,0 +1,9 @@
+o nome veia tudo maiusculo ou minuscula da tabela
+
+
+
+SELECT UPPER(Nome), LOWER(Cor) FROM PRODUTOS
+
+
+
+SELECT UPPER(Nome) NomeProduto, LOWER(Cor) CorProduto FROM PRODUTOS

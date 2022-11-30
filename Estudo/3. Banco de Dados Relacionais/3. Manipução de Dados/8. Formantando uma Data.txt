@@ -1,0 +1,11 @@
+o GETDATE do SQL Server pega uma data mt complexa e informativa, mas se quiser mostrar mais visualmente padrão brasileiro
+
+
+
+SELECT FORMAT(DataCadastro, 'dd/MM/yyyy') FROM PRODUTOS
+
+
+em vez de usar "/" pode ser usar o traço "-"
+
+
+SELECT FORMAT(DataCadastro, 'dd-MM-yyyy') FROM PRODUTOS

@@ -1,0 +1,27 @@
+try {
+
+string [] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+} catch(FileNotFoundException excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão na leitura de arquivo. Arquivo não encontrado {excessao.Message}");
+}
+
+catch(DirectoryNotFoundException excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão na procura de uma pasta. Pasta não encontrada. {excessao.Message}");
+}
+
+catch(Exception excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão genérica. {excessao.Message}");
+}
+
+
+
+pode termina como dando certo uma operação, usando o "Finally" depois dos blocos

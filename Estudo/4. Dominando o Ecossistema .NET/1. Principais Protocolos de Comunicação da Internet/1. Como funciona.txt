@@ -1,0 +1,27 @@
+HyperText Transfer Protocol (HTTP)
+
+vai fazer com que os ambos se comuniquem, Cliente e Servidor
+
+
+.Definido pelos RFCs 1945 e 2116
+
+.Protocolo de Comunicação
+
+
+.Browser -> implementa o cliente HTTP
+
+.Servidor -> host objetos web
+
+
+
+
+
+Metodo GET, voce pesquisa e ele acha
+
+Metodo POst, alem da pesquisa, voce consegue manda suas informações para um banco de dados, como um formulário. eles tipos de dados são formatos em dois tipos de arquivos, os mais usados - XML e JSON.
+
+
+
+qual dos dois usar? depende do contexto ao qual se aplica melhor.
+
+

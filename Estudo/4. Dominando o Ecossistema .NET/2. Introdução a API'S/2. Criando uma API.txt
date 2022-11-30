@@ -1,0 +1,4 @@
+no console - dotnet new webapi
+
+
+tudo que se cria nessa api, é como se fosse um "Hello World" para testa sua API

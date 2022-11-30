@@ -1,0 +1,85 @@
+Stack  (Pilha)
+
+o ULTIMO que entro, vai ser o primeiro a sair.
+
+
+1°
+
+
+
+54
+
+2°
+
+
+42
+54
+
+3°
+
+32
+42
+54
+
+
+
+SAIR
+
+
+1°
+
+32
+42
+54
+
+
+2°
+
+
+42
+54
+
+
+3°
+
+
+
+54
+
+
+
+
+Stack<int> pilha = new Stack<int>();
+
+
+Adicionando valor na pilha
+
+pilha.Push();
+
+
+
+
+
+
+Stack<int> pilha = new Stack<int>();
+
+
+pilha.Push(1);
+pilha.Push(2);
+pilha.Push(3);
+pilha.Push(4);
+
+
+foreach(int pilhas in pilha)
+{
+    Console.WriteLine(pilhas);
+}
+
+Console.WriteLine($"Removendo o elemento do topo {pilha.Pop()}");
+
+foreach(int pilhas in pilha)
+{
+    Console.WriteLine(pilhas);
+}
+
+

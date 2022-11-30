@@ -1,0 +1,27 @@
+Adicionando Criptografia ao Protocolo
+
+
+Criptografia por chave & Certificado Digital
+
+
+
+Criptografia por chave: tem um arquivo de dados legivel qualquer, e não quero que qualquer pessoa veja esse conteudo, então pode se utilizar esse tipo de cifra, para mapear e deixa ilegivel.
+
+
+dois tipos: Assimétrica e Simétrica
+
+
+Assimétrica: .Chave Privada (Assinatura - criptografia)
+
+.Chave Pública (Verificação de autenticidade)
+
+
+
+Simétrica: Chave única privada
+
+.Conhecimento prévio da chave
+
+
+.Cifra de fluxo
+.Cifra de bloco
+

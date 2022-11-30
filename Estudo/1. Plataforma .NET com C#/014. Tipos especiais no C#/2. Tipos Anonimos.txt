@@ -1,0 +1,15 @@
+Fornecem um modo conveniente de encapsular propriedades somente leitura.
+
+
+
+var tipoAnonimo = new {Nome = "João Pedro", Sobrenome = "Maria", Altura = 1.79};
+
+Console.WriteLine($"Nome: {tipoAnonimo.Nome}");
+Console.WriteLine($"Nome: {tipoAnonimo.Sobrenome}");
+Console.WriteLine($"Nome: {tipoAnonimo.Altura}");
+
+
+
+
+
+Ele só pega a Propriedade "Get", quando passar esse valor, não pode ser mais alterado.

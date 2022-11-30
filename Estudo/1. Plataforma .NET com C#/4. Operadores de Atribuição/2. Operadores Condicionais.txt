@@ -1,0 +1,22 @@
+IF
+
+não necessáriamente precisa fazer um if, no proprio if, pode se fazer numa variável bool
+
+exemplo
+
+no if
+
+if (qtdeEmEstoque >= qtdeCompra)
+{
+..........
+}
+
+
+
+na variavel
+
+bool possivelVenda = qtdeEmEstoque >= qtdeCompra
+
+
+
+

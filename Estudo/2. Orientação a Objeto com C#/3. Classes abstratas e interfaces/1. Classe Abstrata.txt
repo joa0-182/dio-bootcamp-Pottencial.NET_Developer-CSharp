@@ -1,0 +1,30 @@
+Tem como objetivo ser exclusivamente um modelo para ser herdado, portanto não pode ser instanciada.
+
+Pode implementar métodos ou deixá-los a cargo de quem herda.
+
+
+Ela serve apenas de modelo para ser herdada depois. e não pode ser instanciada.
+
+
+exemplo
+
+
+<<abstract>>
+Conta
+
+
+-Saldo: double
+
++Creditar() <<abstract>>
++ExibirSaldo()
+
+
+	|
+	|
+	|
+
+Corrente
+
+-Tarifa: double
+
++Creditar()

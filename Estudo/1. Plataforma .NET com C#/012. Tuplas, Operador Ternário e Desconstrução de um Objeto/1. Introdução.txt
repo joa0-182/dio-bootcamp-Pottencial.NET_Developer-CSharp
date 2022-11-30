@@ -1,0 +1,6 @@
+Tuplas
+
+fornece sintaxe concisa para agrupar vários elementos de dados em uma estrutura de dados leve.
+
+
+é uma coleção, mas não é uma coleção do mesmo tipo, pode retorna vários valores, de tipos diferente, em uma variavel

@@ -1,0 +1,25 @@
+Semi estruturado, e Estruturado
+
+
+
+Semi estruturado - JSON
+
+"Id: 1,
+"Nome_Produto": "Material de escritório,
+...
+
+
+
+Estruturado - Tabela
+
+Id	Nome	Sobrenome
+1	Joao	Maria
+
+
+
+
+Estruturado, se apaga uma coluna na sua tabela, vai apagar todos os dados junto a coluna, vai perde a estrutura.
+
+
+
+Semi estruturado, de certa forma segue uma estrutura, mas cada id por ter uma coisa, que a outra não tenha. Tem mais liberdade.

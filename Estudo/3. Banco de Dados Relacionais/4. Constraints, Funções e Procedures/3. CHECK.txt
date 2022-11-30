@@ -1,0 +1,10 @@
+Verifica uma determinada condição
+
+
+Genero, eu quero ter apenas generos M, F e U. qualquer um diferente foge da tabela.
+
+
+ALTER TABLE Produtos ADD CHECK (Genero = 'M' OR Genero =  'F' OR Genero =  'U')
+
+
+

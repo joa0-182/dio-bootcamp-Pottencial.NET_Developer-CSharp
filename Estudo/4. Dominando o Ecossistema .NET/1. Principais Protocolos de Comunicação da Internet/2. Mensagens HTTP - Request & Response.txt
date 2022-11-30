@@ -1,0 +1,39 @@
+Estrutura
+
+Para que serve essa mensagem
+
+
+Metodos Buscar Informações (GET) e Enviar Informações (POST) 
+
+
+Para cada ação feito com exito ou fracasso mostrar as informações
+
+
+
+Existem Vários Metodos HTTP
+
+GET - Solicita um recurso do servidor
+
+
+HEAD - GET sem corpo de resposta
+
+
+POST - submete uma entidade a um recurso
+
+
+PUT - substituição de recursos pelos dados da requisição
+
+
+DELETE - remoção de um recurso
+
+
+TRACE - chamada de loop-back a um determinado recurso
+
+
+OPTION - opções de comunicação com recurso
+
+
+CONNECT - tunelamento identificado pelo recurso
+
+
+PATCH - modificação parcial

@@ -1,0 +1,6 @@
+indo no Program para fazer funcionar, dependendo o c# não vai enxerga a class pessoa, pra isso tem que copiar o "namespace" models para onde vai executar, como se fosse linka
+
+exemplo: 
+
+using ExemploPessoa.Models;
+

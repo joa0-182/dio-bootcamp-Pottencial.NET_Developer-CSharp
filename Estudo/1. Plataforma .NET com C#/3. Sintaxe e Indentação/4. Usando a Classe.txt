@@ -1,0 +1,12 @@
+NomeDaClasse (nomeDaVariavel)
+
+
+Pessoa pessoa = new Pessoa();
+
+
+(poderia chamar p, pessoa1, é o nome da variável)
+
+
+seguindo o conceito de casa:
+
+A planta da casa seria a classe Pessoa, e quando se da um "new" e da um nome da váriavel, ai teria a casa construida

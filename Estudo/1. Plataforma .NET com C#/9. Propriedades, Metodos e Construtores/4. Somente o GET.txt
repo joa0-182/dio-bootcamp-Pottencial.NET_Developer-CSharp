@@ -1,0 +1,4 @@
+fazer o get e set de Nome e Sobrenome
+
+
+fazendo a propriedade NomeCompleto, ele pode ter apenas o GET, pois no Nome e no Sobrenome ja está feito, no NomeCompleto ele vai apenas concatena.

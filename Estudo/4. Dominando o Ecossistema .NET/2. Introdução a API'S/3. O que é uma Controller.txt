@@ -1,0 +1,39 @@
+Uma API trabalha com requisições HTTP.
+
+uma Controller é uma classe que vai agrupar suas requisições HTTP e vai disponibilizar seus end-points.
+
+Controller, agrupamento de classes em comum, em dominio comum.
+
+
+
+Quando se criar uma classe no controle, é bom sempre seguir o padrao de colocar "Controller" para especificar seguir o padrão.
+exemplo: UsuarioController
+
+
+
+
+data e hora atual
+
+
+
+using Microsoft.AspNetCore.Mvc;
+
+namespace ModuloAPI.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class UsuarioController : ControllerBase
+    {
+        [HttpGet("ObterDataHoraAtual")]
+        public ActionResult ObterDataHora()
+        {
+            var obj = new
+            {
+                Data = DateTime.Now.ToLongDateString(),
+                Hora = DateTime.Now.ToLongTimeString()
+            };
+
+            return Ok(obj);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+Os mais comuns no mercado HOJE, são os dois tipos
+
+
+O Banco de Dados Relacional e o Não Relacional.
+
+
+
+Banco de Dados Relacional, o tipo mais usado atualmente, armazenando dados estruturados, sendo organizado em tabelas, com colunas e linhas, que se relacionam entre si.(tipo o excel)
+
+
+Exemplo: SQL Server, Oracle Database, MySQL.
+
+
+
+
+Banco de Dados NÃO Relacional, é onde os dados não são armazenados em tabela, e sim de uma maneira não estruturada ou semi-estruturas.
+
+
+Exemplo: MongoDB
+
+Existem vários tipos: document databases, key-value databases, wide-column stores, e graph databases

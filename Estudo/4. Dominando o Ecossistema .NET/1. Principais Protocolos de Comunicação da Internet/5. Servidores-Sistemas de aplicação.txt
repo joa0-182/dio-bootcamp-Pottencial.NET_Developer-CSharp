@@ -1,0 +1,95 @@
+Servidores HTTP
+
+
+Apache, robusto, parrudo, consolidado no mercado.
+
+
+NGINX - veio depois do apache, mas ta se consolidando no mercado.
+
+
+XAMPP - pacote quem está iniciando e para fazer testes.
+
+
+
+
+
+Apache
+
+Sobre:
+
+.1995
+.Contribuição com o WWW
+.Opensource & free
+.Comunidade: Apache Software Foundation
+
+
+Caracteristicas:
+
+.Modular, dinâmico e carrefável
+.Servidores virtuais com endereços baseados em IP ou Nome
+.Compatibilidade com IPV6
+.Suporte à versão 2.0 do HTTP
+.Proxy reverso, websocket
+
+
+Aplicações:
+
+Tanto para windows e Linux, mas ele é bem mais utilizado em Linux
+
+
+
+
+
+XAMPP
+
+Pacote/Ambiente
+
+Focado para teste/desenvolvimento
+
+
+.Apache server
+.MariaDB
+.Interpretadores script -PHP/Perl
+
+OpenSSL, phpMyAdmin, MediaWki, Joo mla, Wordpress
+
+
+Aplicações:
+
+Windows, linux e Mac.
+
+
+
+
+
+
+
+
+NGINX
+
+.2004
+
+.Web Server
+.Proxy reverso
+.Load balancer
+.Mail proxy
+.HTTP cache
+
+
+
+. + 10mil conexões simultâneas
+.Lida com arquivos estáticos, index, auto-indexing
+.Proxy reverso
+.Load balance
+.TLS/SSL com SNI via OpenSSL
+.Suporte à HTTP 2.0
+
+.Compatível com IPV6
+.FastCGI SCGI, uWSGI com cache
+.Suporte a gRPC (v. 1.13.10)
+.Servidores virtuais baseados em IP e nome
+.WebSocket desde 1.3.13
+.URL rewriting and redirection [35][36]
+
+
+

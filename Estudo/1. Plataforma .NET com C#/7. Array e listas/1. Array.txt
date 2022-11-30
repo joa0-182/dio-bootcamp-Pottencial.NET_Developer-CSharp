@@ -1,0 +1,73 @@
+array é uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo.
+
+uma unica variável que armazena vários valores
+
+
+exemplos:
+
+1. int[] array = new int[4];
+
+2. int[] array = new int[]{42, 75,74,61};
+
+3. string[] nomes = {"Jan, "Fev;
+
+
+
+Índice (posição), sempre começa do zero.
+
+valores 42  75  74  61
+posição  0   1   2   3
+
+1. int elemento = array[0];
+2. array[0] = 42
+
+
+
+colocando uma posição que não existe no array, o programa irá quebrar.
+
+
+identificasse o array pelo colcheites
+
+
+int[] nomeArray = new int[tamanhoArray];
+
+
+
+length(capacidade do array)
+
+
+
+
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 14;
+arrayInteiros[1] = 24;
+arrayInteiros[2] = 34;
+
+
+Console.WriteLine("Percorrendo o array por um FOR");
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+}
+
+
+Console.WriteLine("Percorrendo um array por um FOREACH");
+foreach (var valor in arrayInteiros)
+{
+    Console.WriteLine(valor);
+}
+
+
+foreach tem a vantagem de ser mais simples, porem não da pra escrever a posição, teria que ser por fora.
+
+
+
+int contadorForeach = 0;
+Console.WriteLine("Percorrendo um array por um FOREACH com contador");
+foreach (var valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
+    contadorForeach++;
+    
+}

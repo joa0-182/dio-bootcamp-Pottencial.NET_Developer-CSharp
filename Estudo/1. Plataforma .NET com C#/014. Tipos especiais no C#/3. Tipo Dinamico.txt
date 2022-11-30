@@ -1,0 +1,34 @@
+tipo de variavel dinamica.
+
+
+"dynamic"
+
+
+dynamic variavelDinamica = 10;
+
+Console.WriteLine($"Tipo de Variável {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+variavelDinamica = "Texto";
+
+Console.WriteLine($"Tipo de Variável {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+variavelDinamica = 1.3409;
+
+Console.WriteLine($"Tipo de Variável {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+variavelDinamica = true;
+
+Console.WriteLine($"Tipo de Variável {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+Tipo de Variável System.Int32, Valor: 10
+Tipo de Variável System.String, Valor: Texto
+Tipo de Variável System.Double, Valor: 1,3409
+Tipo de Variável System.Boolean, Valor: True

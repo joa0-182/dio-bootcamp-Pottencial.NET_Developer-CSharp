@@ -1,0 +1,44 @@
+exemplo, numero impar ou par
+
+
+fazendo da maneira convencional:
+
+int numero = 21;
+
+if (numero % 2 == 0)
+{
+    Console.WriteLine($"O numero {numero} é par");
+}
+else
+{
+    Console.WriteLine($"O numero {numero} é impar");
+}
+
+
+
+simples
+
+
+agora refaturando usando o IF Ternário
+
+
+
+
+int numero = 21;
+bool ehPar = false;
+
+// IF ternário
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+se declarou uma váriavel para fazer a operação, e no WriteLine faz a condição
+
+
+ehPar ?(verdadeira) "texto" :(falso) "texto"
+
+
+funciona APENAS NO CASO DE SER IF E ELSE, DUAS CONDIÇÕES, NÃO APENAS UMA.

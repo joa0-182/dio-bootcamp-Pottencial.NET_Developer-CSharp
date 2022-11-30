@@ -1,0 +1,19 @@
+Soma total
+
+
+tem que ser numeros.
+
+
+exemplo: soma total dos preços dos meus produtos
+
+SELECT SUM(nomeDaColuna)FROM nomeDaTabela
+
+
+SELECT SUM(Preco) FROM Produtos
+
+
+SELECT SUM(Preco) PreçoTotal FROM Produtos
+
+
+
+SELECT SUM(Preco) PreçoTotalProdutosM FROM Produtos WHERE Tamanho = 'M'

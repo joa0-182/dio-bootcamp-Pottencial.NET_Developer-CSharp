@@ -1,0 +1,24 @@
+O que é e o que ele se propoe a fazer
+
+
+O.NET é uma plataforma de desenvolvimento unificado que permite a construção de sistemas e aplicações.
+
+C# é uma linguagem de programação usada no .NET (não é a unica linguagem usada no DOTNET)
+Plataforma de desenvolvimento unificado) atráves dele pode se usar aplicativos desktop, aplicativos WEB(Asp.Net), Cloud(Azure) Mobile(Xamarin)
+Games(Unity)
+
+
+Plataforma de desenvolvimento..
+
+
+
+Como ele surgiu
+
+A microsoft começou a trabalhar no c# no final dos anos 90, tendo a sua primeira versão do framework lançada em 2002, sendo o objetivo de competir com o Java.
+
+
+Conceito de multiplataforma era estrondoso na época, e a Microsoft trabalhou em melhorias e implementações do Java em sua plataforma, mas foi impedida pela Sun(empresa que mantia o Java na época).
+
+
+
+Linha do tempo.

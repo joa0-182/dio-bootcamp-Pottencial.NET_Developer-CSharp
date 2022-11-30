@@ -1,0 +1,28 @@
+as vezes o arquivo JSON pode vir com uma sintaxe diferente da identação do c#, e não pode pedir pro fornecedor/cliente troca isso.
+
+Exemplo
+
+Nome_Produto, isso foje da identação do C#.
+
+ai na propria classes, deve adicionar o "using Newtonsoft.Json;"
+
+e aonde tiver essa despadronização, colocar
+
+
+[JsonProperty("Nome_Produto")]
+        public string Produto { get; set; }
+
+
+
+JSON
+
+[
+  {
+    "Id": 1,
+    "Nome_Produto": "Material de escritório",
+    "Preco": 25.00,
+    "DataVenda": "2022-10-26T00:38:27.2242681-03:00"
+  },
+
+
+

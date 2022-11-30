@@ -1,0 +1,19 @@
+OR (Pipe, ||)
+
+AND (&&), restritivo, todas as condições tem que ser verdadeiras, e uma falsa. De 10 condições, 9 são verdadeiras e uma é falsa.
+
+
+NOT (!), nega um valor boleano. Estão mais ligadas para o lado do NÃO.
+
+
+negar uma váriavel, é coloca o ! no começo dela
+
+exemplo
+
+if (!alguma coisa) está negando ela.
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+DateTime data = DateTime.Now;
+
+Console.WriteLine(data);
+
+
+21/10/2022 00:32:26
+
+
+
+
+
+DateTime data = DateTime.Now;
+
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+
+
+21/10/2022 12:33
+
+
+
+
+
+
+
+
+
+SOMENTE HORA ou SOMENTE DATA
+
+
+
+SOMENTE DATA 
+
+DateTime data = DateTime.Now;
+
+Console.WriteLine(data.ToShortDateString());
+
+
+
+
+SOMENTE HORA 
+
+DateTime data = DateTime.Now;
+
+Console.WriteLine(data.ToShortTimeString());
+
+
+
+
+
+
+
+
+TRYPARSE
+
+
+string dataString = "21-10-2022 00:49";
+
+uma data válida, mas se..
+
+
+
+string dataString = "21-15-2022 00:49";
+
+ele encerra o programa.
+
+
+
+
+então..
+
+
+
+string dataString = "21-10-2022 00:49";
+
+DateTime.TryParseExact(dataString, "dd-MM-yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+
+
+Console.WriteLine(data);
+
+
+
+
+
+detalhe, se a variavel string estiver no formato entre barra ou traço
+
+##/##/####
+##-##-####
+
+o TryParseExact tambem tem que estar.
+
+
+
+ADICIONANDO UM TEXTO A O TRYPARSE
+
+
+
+
+
+
+string dataString = "21/13/2022 00:49";
+
+bool sucess = DateTime.TryParseExact(dataString, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime data);
+
+if(sucess)
+{
+    Console.WriteLine($"Conversão feita com sucesso! --> {data}");
+}
+else
+{
+    Console.WriteLine($"Falha na conversão --> {dataString} não é uma data válida.");
+}

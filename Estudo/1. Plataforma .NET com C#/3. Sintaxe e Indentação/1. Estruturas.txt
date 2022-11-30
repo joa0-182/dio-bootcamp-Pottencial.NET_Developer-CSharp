@@ -1,0 +1,17 @@
+
+______________________________
+csproj - arquivo de projeto do c#, o metadados 
+
+	
+outputType > o exemplo nesse, é o Exe, o executável
+
+TargetFramework > versão do dotnet, ela pode ser trocada, mas dependendo na versão, pode quebrar o projeto
+______________________________
+
+
+pasta obj - para debbuger, o funcionamento da aplicação, arquivos de compilação
+
+
+______________________________
+
+pasta bin - binários, arquivos como dll, exe, pdb, onde os seus arquivos foram convertidos e foram transformados para binário

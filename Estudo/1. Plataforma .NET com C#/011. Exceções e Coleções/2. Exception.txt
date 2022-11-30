@@ -1,0 +1,77 @@
+programar para ler um arquivo txt, e não encontra o arquivo, ele não sabe o que fazer e retorna para voce resolver.
+
+
+string [] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+
+
+trocando o nome do arquivo
+
+
+string [] linhas = File.ReadAllLines("Arquivos/arquivo__Leituraaaaa.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+
+
+vai trazer uma excessao gigantesca...ai tratando o erro..
+
+
+try {
+
+string [] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+} catch(Exception excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão genérica. {excessao.Message}");
+}
+
+
+
+try - executa o código com cautela, sabendo que a qualquer hora pode da merda
+
+
+catch - trata o erro.
+
+
+
+
+tem Excessão genérica e especifica, pode ter varios catch
+
+
+try {
+
+string [] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
+} catch(FileNotFoundException excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão na leitura de arquivo. Arquivo não encontrado {excessao.Message}");
+}
+
+catch(DirectoryNotFoundException excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão na procura de uma pasta. Pasta não encontrada. {excessao.Message}");
+}
+
+catch(Exception excessao)
+{
+    Console.WriteLine($"Ocorreu uma excessão genérica. {excessao.Message}");
+}

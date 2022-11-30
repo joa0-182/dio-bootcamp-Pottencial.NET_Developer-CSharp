@@ -1,0 +1,58 @@
+CRUD
+
+
+C - CREATE (Insert)
+
+R - READ (Select)
+
+U - UPDATE (Update)
+
+D - DELETE (Delete)
+
+
+
+
+
+
+
+
+o CRUD com o Entity Framework
+
+
+
+Contatos
+
++ Id: int
++ Nome: string
++ Telefone: string
++ Ativo: bool
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+
+Entity Framework
+
+	|
+	|
+	|
+	|
+	|
+	|
+
+CREATE TABLE Contatos...
+
+INSERT INTO Contatos...
+
+UPDATE Contatos...
+
+SELECT * FROM Contatos...
+
+DELETE FROM Contatos...
+
+
+

@@ -1,0 +1,18 @@
+Quando um codígo ja está em execução, e precisasse o espaçamento do arry por exemplo, não simples apenas ir lá e mudar.
+
+ARRAY ORIGINAL
+
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 14;
+arrayInteiros[1] = 24;
+arrayInteiros[2] = 34;
+
+
+
+adicionando mais tamanho para ele
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+
+Array.Resize(ref[referencia o array] arrayInteiros, arrayInteiros.Lenght * 2)[dobrando o tamanho]);

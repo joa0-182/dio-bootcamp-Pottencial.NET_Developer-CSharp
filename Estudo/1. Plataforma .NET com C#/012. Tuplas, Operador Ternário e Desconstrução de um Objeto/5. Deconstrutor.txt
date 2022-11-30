@@ -1,0 +1,24 @@
+é uma ação inversa ao construtor, por mais que tem a palavra proxima de "Destruir" na verdade ele vai SEPARAR os objetos.
+
+
+
+
+
+Classe
+
+
+   public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
+
+
+Program
+
+Pessoa p1 = new Pessoa("João Pedro", "Maria");
+
+(string nome, string sobrenome) = p1;
+
+Console.WriteLine($"{nome} {sobrenome}");

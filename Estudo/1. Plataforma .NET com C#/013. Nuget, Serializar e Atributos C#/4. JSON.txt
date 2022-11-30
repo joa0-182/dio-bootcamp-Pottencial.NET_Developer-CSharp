@@ -1,0 +1,30 @@
+JavaScript Notation Object é um formato de texto que segue a sintaxe do JavaScript, muito usado para transmitir dados entre aplicações.
+
+
+
+Ele faz se comunicar com outras tecnologias
+
+
+
+.NET
+
+  |
+  |
+  |
+
+
+JSON
+	   
+"id":1,
+	   
+"Produto": "p1",
+	   
+"Preco": 10.50
+
+
+  |
+  |
+  |
+
+
+Java

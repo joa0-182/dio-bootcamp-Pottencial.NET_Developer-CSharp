@@ -1,0 +1,6 @@
+Preve coisas antes de acontecer, como fazer um download de alguma coisa numa página.
+
+Pode cair a internet, pode cair o servidor, pode vir corrompido 
+
+
+O programa te retorna alguma coisa que ele não conseguiu se resolver sozinho e passa a responsabilidade para você.

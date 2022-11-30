@@ -1,0 +1,23 @@
+Alocação de memória.
+
+
+
+Stack e Heap
+
+
+quando se declara uma variável é o tipo Stack, onde é guardado o NOME da variável e o VALOR dela. 
+
+O Stack é do tipo pilha, o ultimo a entrar é o primeiro a sair.
+
+
+
+Quando se declara o tipo Metodo, ele guarda a variavel do metodo no Stack e referencia o metodo para o Heap.
+
+Exemplo:
+
+Pessoa p1 = new Pessoal();
+
+
+Stack - p1(ref)
+
+Heap - p1 Objeto

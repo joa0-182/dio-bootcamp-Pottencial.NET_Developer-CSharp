@@ -1,0 +1,14 @@
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 14;
+arrayInteiros[1] = 24;
+arrayInteiros[2] = 34;
+
+
+
+
+
+
+
+int[] arrayInteirosDobrados = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrados, arrayInteiros.Length);

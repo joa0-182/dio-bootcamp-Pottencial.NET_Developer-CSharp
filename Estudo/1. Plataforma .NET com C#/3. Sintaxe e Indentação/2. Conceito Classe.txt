@@ -1,0 +1,55 @@
+Classe, abstração orientada a objeto
+
+
+Programação Orientada a Objetos (POO):
+
+pegar um objeto da vida real, e transformalo na programação
+
+
+PESSOA
+
++nome: string
++idade: int
+_______________
++ apresentar()
+
+
+
+
+CRIANDO na programação
+
+
+criando a pasta "Models" para colocar as classes la dentro
+
+
+TODO NOME DE CLASSE, A PRIMEIRA LETRA TEM QUE SER MAIUSCULA
+
+
+
+prop - atalho para propriedade.
+
+public (TIPO) (NomeDaPropriedade)
+
+
+
+
+
+ESTRUTURA DO CÓDIGO
+
+public class (NomeDaClasse) é o nome da classe
+
+public string Nome { get; set; }
+
+get -> pegar o valor
+set -> atribuir um valor
+
+
+
+no JavaScript, o correto termo para chama uma Função é Função, no C# é Metodo.
+
+
+namespace -> Organização da suas classes, o caminho de onde está, o caminho virtual, não digito.
+
+
+
+é possível usar palavras reservadas no c#, colocando um @ antes, exemplo: @class, @void, @public, que ele vai aceitar, mas NÃO É RECOMENDADO.

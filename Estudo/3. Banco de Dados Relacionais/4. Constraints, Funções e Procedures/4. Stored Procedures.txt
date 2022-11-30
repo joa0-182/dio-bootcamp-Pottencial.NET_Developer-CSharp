@@ -1,0 +1,65 @@
+são codigos SQL que você pode salvar diretamente no banco de dados, permitindo assim aproveitar um script comumente usado.
+
+
+exemplo: para adicionar um produto, sempre é insert into, as colunas e os valores
+
+
+
+CREATE PROCEDURE "nomeDoMetodo"
+
+
+
+
+CREATE PROCEDURE InserirNovoProduto
+@Nome		VARCHAR(255),
+@Cor		VARCHAR(50),
+@Preco		decimal,
+@Tamanho	VARCHAR(5),
+@Genero		char(1)
+
+AS
+
+INSERT INTO Produtos (Nome, Cor, Preco, Tamanho, Genero) 
+VALUES (@Nome, @Cor, @Preco, @Tamanho, @Genero)
+
+
+
+
+para utilizar, basta apenas:
+
+
+EXECUTE InserirNovoProduto 'Blusa', 'Preta', 125, 'G', 'U'
+
+
+ou tambem nomear eles pra deixa bem especificado
+
+
+EXECUTE InserirNovoProduto  @Nome = 'Blusa', @Cor = 'Preta', @Preco = 125, @Tamanho = 'G', @Genero = 'U'
+
+
+
+EXECUTE ou EXEC, os dois funcionam 
+
+
+
+
+
+
+
+QUERO FAZER UM STORED PROCEDURE COM SELECT
+
+
+
+
+CREATE PROCEDURE ObterProdutosPorTamanho
+@TamanhoProduto VARCHAR(5)
+
+AS
+
+SELECT * FROM Produtos WHERE Tamanho = @TamanhoProduto
+
+
+
+
+EXEC ObterProdutosPorTamanho 'M'
+

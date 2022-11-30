@@ -1,0 +1,13 @@
+Processo de serializar consiste em transforma objetos em fluxo de bytes para seu armazenamento ou transmissão.
+
+
+o Objeto que estava em seu programa, pode transforma em bytes para um Banco de Dados chega proximo a seu Objeto, tanto pra Memoria ou um Arquivo tambem.
+
+
+passa uma tradução para determinado arquivo, fazer uma transformação.
+
+
+
+DESEARIALIZAÇÃO
+
+é o inverso de serialização.

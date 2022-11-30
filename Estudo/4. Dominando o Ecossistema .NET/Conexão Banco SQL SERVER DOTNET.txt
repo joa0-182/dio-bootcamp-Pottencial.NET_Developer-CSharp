@@ -1,0 +1,25 @@
+TERMINAL:
+instalar CASO NÃO TIVER: dotnet tool install --global dotnet-ef
+
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+
+JSON: 
+"ConnectionStrings": {
+    "NomeConexao": "Server=localhost\\sqlexpress; Initial Catalog=NomeBanco; Integrated Security=True"
+
+
+PROGRAM.CS:
+builder.Services.AddDbContext<{NomeContext}>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("{NomeConexao}")));
+
+
+TERMINAL:
+
+dotnet-ef migrations add CriacaoTabela{nomeTabela}
+
+dotnet-ef database update

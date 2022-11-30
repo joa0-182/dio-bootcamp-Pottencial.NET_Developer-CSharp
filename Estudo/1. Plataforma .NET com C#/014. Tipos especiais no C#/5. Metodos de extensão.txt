@@ -1,0 +1,43 @@
+Os métodos de extensão permitem que você "adicione" tipos existentes sem criar um novo tipo derivado, recompilar ou caso contrário, modificar o tipo original.
+
+
+em outras palavras
+
+extender um determinado tipo, com um comportamento.
+
+
+
+
+
+Normalmente se resolveria assim
+
+
+int numero = 20;
+bool ehPar = false;
+
+// IF ternário
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+mas, pode se criar um metodo, nas classes..:
+
+public static class IntExtensions
+    {
+        public static bool EhPar(this int numero)
+        {
+           return numero % 2 == 0;
+        }
+    }
+
+
+
+agora quando for passar a operação pra depois fazer a condição.
+
+ehPar = numero.EhPar();
+
+o .EhPar() se criou para usar.

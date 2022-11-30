@@ -1,0 +1,64 @@
+São os operadores que usamos ta matemática, classe Math
+
+
+Adição (+)
+
+Subtração (-)
+
+Multiplicação (*)
+
+Divisão (/)
+
+Módulo{resto da divisão} (%)
+
+Incremento (++) --> x++
+
+Decremento (--) --> x--
+
+
+
+POTENCIA NO C#
+
+usando a classe Math
+
+Math.Pow (potencia)
+
+
+
+FUNÇÕES TRIGONOMÉTRICAS
+
+cosseno, seno e a tangente
+
+
+usando a classe Math
+
+
+
+
+ARREDONDANDO
+
+classe Math.Round
+
+
+dentro da varialvel {}
+
+
+exemplo:
+
+{Math.Round(nomeVariavel, 3)} depois da virgula são as casas.
+
+
+
+
+INCREMENTO e DECREMENTO
+
++1 ou -1
+
+x++ e x--
+
+
+
+
+RAIZ QUADRADA
+
+usando a classe Math.Sqrt

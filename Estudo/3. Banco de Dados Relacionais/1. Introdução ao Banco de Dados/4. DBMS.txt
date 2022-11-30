@@ -1,0 +1,6 @@
+DBMS(Database Management System) é um software utilizado para acessar, manipular e monitorar um sistema de banco de dados.
+
+é uma maneira visual de acessar o banco de dados.
+
+
+é como se fosse uma IDE, um programa para acessar o banco de dados.

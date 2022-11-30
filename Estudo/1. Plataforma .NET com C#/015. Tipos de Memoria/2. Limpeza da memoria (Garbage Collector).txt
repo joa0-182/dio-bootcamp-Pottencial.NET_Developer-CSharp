@@ -1,0 +1,3 @@
+Quando se faz a limpeza das variaveis, limpa tudo o Stack, e depois dessa limpeza, o Heap e os metodo ficam sozinhos, pois não tem mais referencia para fazer o metodo.
+
+quando os objeto da memoria Heap não tiver mais referencia nenhuma da memoria Stack, vai entrar no Garbage Collector, e limpa a memoria do Heap

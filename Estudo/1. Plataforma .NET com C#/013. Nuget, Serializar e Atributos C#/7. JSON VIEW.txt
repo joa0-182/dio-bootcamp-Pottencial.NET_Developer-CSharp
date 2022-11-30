@@ -1,0 +1,3 @@
+site para deixa o arquivo json mais bonito, legivel, minificado.
+
+https://codebeautify.org/jsonviewer

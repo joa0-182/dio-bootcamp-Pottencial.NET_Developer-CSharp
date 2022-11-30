@@ -1,0 +1,31 @@
+WHILE (enquanto)
+
+enquanto ele for verdadeiro, executa o código, CUIDADO para fazer a estrutura e lógica certa, para não cair em um loop infinito.
+
+
+while (condição)
+
+
+
+
+int numero = 10;
+int contador = 0;
+
+while(contador <= 10){
+    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+
+:
+0° Execução: 10 x 0 = 0
+1° Execução: 10 x 1 = 10   
+2° Execução: 10 x 2 = 20   
+3° Execução: 10 x 3 = 30   
+4° Execução: 10 x 4 = 40   
+5° Execução: 10 x 5 = 50   
+6° Execução: 10 x 6 = 60   
+7° Execução: 10 x 7 = 70   
+8° Execução: 10 x 8 = 80   
+9° Execução: 10 x 9 = 90   
+10° Execução: 10 x 10 = 100

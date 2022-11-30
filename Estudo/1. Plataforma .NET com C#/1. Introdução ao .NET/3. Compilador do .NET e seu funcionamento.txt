@@ -1,0 +1,60 @@
+O que é um compilador?
+
+Linguagem de alto nível: A linguagem que entendemos e escrevemos nosso código fonte. (programamos para que sabemos o estamos fazendo e entendendendo, não programamos em binário)
+
+
+isso vai ser convertido para a linguagem de baixo nível (em binário)
+
+
+Linguagem de baixo nível: A linguagem que a máquina entende. Possui pouca abstração, sendo difícil de entender.
+
+
+
+
+Compilador do .NET
+
+
+Your C# code {MyProgram.cs}
+
+vai ter diversas classes no projeto, e no compilador vai pega todas essas clases, e vai gerar todos esses processos
+
+C# compiler
+
+
+IL code - o intermediario, não tão proximo ao desenvolvedor, e tambem não tão proximo a maquina
+
+{MyProgram.exe}
+{MyProgram.dll}
+
+
+JIT compiler
+
+
+Native code
+(21 0a 00 00 0c 10 00 06)
+
+
+
+
+Transpilador
+
+é a conversão de uma linguagem ou implementação para outra. A sua saída permanece em linguagem de alto nível.
+
+Exemplo: Typescript para Javascript
+
+
+tem coisas que o Ttpescript consegue fazer, que o Javascript não vai conhecer.
+
+
+
+NEM TODA LINGUAGEM É COMPILADA
+
+Linguagem compilada: são linguagens o código fonte é traduzido para  o código de máquina (alto nível para baixo nível)
+
+exemplo: C#, Java
+
+
+
+Linguagem interpretada: São linguagens que fazem a leitura e interpretação diretamente do código fonte. (não é necessário ter um compilador)
+
+Exemplo: JavaScript, PHP

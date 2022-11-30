@@ -1,0 +1,26 @@
+há tipos de informações que não é necessária a se usar.
+
+var (sucesso, linhasArquivo, quantidadeLinhas)
+
+
+a quantidade de linhas não importa muito, e como já está na dentro da classe, essa informação e já programada.
+
+usa-se o "_" para mostrar que não vai ser necessario usar essa informação, e ao mesmo tempo não conter um tipo de erro no código
+
+
+LeituraArquivo leituraArquivo = new LeituraArquivo();
+
+var (sucesso, linhasArquivo, _) = leituraArquivo.LerArquivos("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    // Console.WriteLine($"Quantidade de linhas do arquivo: {quantidadeLinhas}");
+    foreach (string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não possível encontrar o arquivo/ler.");
+}

@@ -1,0 +1,11 @@
+Quais os arquivos principais de um projeto Dotnet, como identificalos e para que serve
+
+
+
+.csproj: Contém informações referente a um projeto (build, debug, versão)
+
+
+.sln (solucion) Contém informações que carregam um agrupamento de projetos
+
+
+

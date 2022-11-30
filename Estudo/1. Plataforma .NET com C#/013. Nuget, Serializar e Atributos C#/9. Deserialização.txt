@@ -1,0 +1,47 @@
+passo a passo
+
+
+1. Arquivo recebido em JSON.
+
+2. Estudar os arquivos dentros do JSON e mapear em sua classe.
+
+3. Criar a Classe com a mapeação da etapa 2.
+
+
+
+
+
+
+
+
+
+
+namespace ExemploExplorando.Models
+{
+    public class Venda
+    {
+        public int Id { get; set; }
+        public string Produto { get; set; }
+        public decimal Preco { get; set; }
+        public DateTime DataVenda { get; set; }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.js");
+
+List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+
+foreach(Venda venda in listaVendas)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}

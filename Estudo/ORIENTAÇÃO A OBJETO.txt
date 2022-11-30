@@ -1,0 +1,6 @@
+Abstrair um objeto da vida real e trazer para a programação
+
+
+O fundamento do uso de Classes a Orientação a Objeto, é que faça o reeuso do código de maneira inteligente, e não duplicar ele.
+
+Monta um conjunto de código, que resolve um determinado problema em especifico.

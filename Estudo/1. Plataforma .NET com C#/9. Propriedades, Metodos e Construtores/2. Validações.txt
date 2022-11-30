@@ -1,0 +1,44 @@
+quando se coloca o get e set vazios, ele atribui qualquer valor
+
+exemplo:
+
+nome: '';
+idade -18;
+
+
+errado, ele aceita qualquer valor, ai eu quero que aceite o nome apenas com 20 caracteres, não seja vazio, e idade não seja negativo e que tambem seja obrigatorio
+
+
+
+para isso, primeiramente precisa criar um campo pro nome to tipo "Private", proteger os campos de atributos de modificações externas.
+
+
+private string _nome;
+
+        public string Nome
+        {
+
+            get;
+
+            set
+            {
+                if(value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio!");
+                }
+
+                _nome = value;
+            }
+
+        }
+
+
+
+
+TEM COMO SIMPLICAR TODA ESSA LINHA DE CÓDIGO, USANDO O "Body Expressions" (=>) quando for pra usar em uma linha
+
+
+public string Nome
+        {
+
+            get =>_nome.ToUpper();

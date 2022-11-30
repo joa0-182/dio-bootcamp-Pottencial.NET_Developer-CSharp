@@ -1,0 +1,11 @@
+no projeto possui dois arquivos json
+
+appsettings.Development.json
+appsettings.json
+
+
+o"appsettings.Development.json" se usa para testes e desenvolvimentos.
+
+
+e o "appsettings.json" se usa para a produção, para implanta para um sistema real.
+

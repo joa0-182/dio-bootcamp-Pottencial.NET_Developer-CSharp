@@ -1,0 +1,8 @@
+Adicionando uma nova coluna a uma tabela
+
+
+exemplo: datetime na tabela
+
+
+
+ALTER TABLE Produtos ADD DataCadastro DATETIME2

@@ -1,0 +1,16 @@
+Lista é uma das coisas mais fáceis a se trabalha comparando com o array.
+
+
+List<string> listaString = new List<string>();
+
+List<tipo> nome = new list<tipo>();
+
+
+
+adicionando valores
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+
+

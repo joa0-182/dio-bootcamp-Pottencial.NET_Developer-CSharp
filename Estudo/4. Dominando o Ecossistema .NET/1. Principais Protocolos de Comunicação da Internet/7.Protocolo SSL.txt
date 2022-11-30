@@ -1,0 +1,11 @@
+SSL (Secure, Socket Layer)
+
+
+Protocolo de Segurança para conexões TCP
+
+.Confidencialidade
+.Integridade
+.Autenticidade end-point
+
+
+

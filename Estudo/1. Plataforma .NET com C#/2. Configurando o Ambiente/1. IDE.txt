@@ -1,0 +1,11 @@
+o que é uma IDE?
+
+Programa que usa para desenvolver, abrindo codigos por aba.
+
+VISUAL STUDIO 
+
+VISUAL STUDIO CODE
+
+RIDER (forte integração com o .NET)
+
+

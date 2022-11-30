@@ -1,0 +1,26 @@
+Paradigma - Modelo de técnicas e estruturas e formas de solucionar um problema.
+
+
+Uma linguagem de programação implementa uma ou mais paradigmas.
+
+
+Exemplos de algumas delas:
+
+
+-Programação Orientada a Objetos
+
+-Programação estruturada
+
+-Programação imperativa
+
+-Programação procedural
+
+-Programação Orientada a Eventos
+
+-Programação Lógica
+
+
+...e por ai vai.
+
+
+Cada um resolve um problema especifico, nenhum é melhor que o outro.

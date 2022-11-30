@@ -1,0 +1,64 @@
+Herança
+
+permite reutilizar atributos, métodos e comportamentos de uma classe em outras classes.
+
+
+Serve para agrupar objetos que são do mesmo tipo, porém com características diferentes.
+
+
+
+Exemplo
+
+
+Aluno
+
++Nome: string
++Idade: int
++Nota: double
+
++ Apresentar
+
+
+
+Professor
+
++Nome: string
++Idade: int
++Salario: decimal
+
++ Apresentar
+
+
+
+e na nossa classe Pessoa ja temos isso, Nome e Idade, então a herança vai funcionar
+
+
+Aluno
+
++Nota: double
+
+
+Professor
+
++Salario:decimal
+
+
+
+Aluno e Professor vão herdar da classe pessoa.
+
+
+Há tambem disso, pode se herda de várias heranças, exemplo disso é se quiser criar uma classe "Diretor" e herda sua herança da classe "Professor" que está herdando da classe "Pessoa", vira um efeito cascata, MAS NÃO É ACONSELHAVEL EMITIR ESSE GRAU DE COMPLEXIDADE AO SEU CÓDIGO.
+
+
+Não existe de herda de várias heranças, exemplo usando o Diretor, não tem como herda de Professor e de Aluno ao mesmo tempo, não existe isso NO C#, OUTRAS LINGUAGENS ATÉ SIM, MAS NÃO NO C#.
+
+
+
+
+Para fazer essa herança, em sua classe aluno, basta fazer o ":" e referencia a herança de sua classe
+
+
+ public class Aluno : Pessoa
+    {
+        
+    }

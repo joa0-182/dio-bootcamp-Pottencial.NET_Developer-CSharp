@@ -1,0 +1,37 @@
+tem como objetivo, impedir que outras classes façam uma herança dela, ou seja, nenhuma classe pode ser sua derivada.
+
+tambem existem métodos e propriedades seladas.
+
+
+
+basicamente apenas a se fazer é colocar "sealed" na class
+
+Sealed - Ponto final.
+
+
+public sealed class Professor : Pessoa
+
+
+para mostrar que ela é instanciada até ali.
+
+Pode se fazer com metodos tambemm
+
+
+
+public class Diretor : Professor
+    {
+        public override void Apresentar()
+        {
+            Console.WriteLine("Diretor");
+        }
+    }
+
+
+normal, mas se eu colocar "Sealed" no metodo do professor(classe diretor em que ele esta herdando") ele sela esse metodo
+
+
+
+public sealed override void Apresentar()
+        {
+            Console.WriteLine($"Olá, meu Nome é {Nome}, tenho {Idade} anos e sou Professor, salário correspondente a {Salario}.");
+        }

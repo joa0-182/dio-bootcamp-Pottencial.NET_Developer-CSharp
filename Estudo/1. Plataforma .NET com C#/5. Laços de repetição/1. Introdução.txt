@@ -1,0 +1,31 @@
+Estrutura de repetição
+
+
+exemplo
+
+Tabuada de um número
+
+x = 10
+
+variavel contador = 0
+
+
+condição: contador é menor ou igual a 10
+
+
+x * contador
+
+contador++
+
+
+ai o contador vai receber 1
+
+ai ele volta na condição, 1 é <= 10? sim
+
+x * contador
+contador++
+
+contador = 2
+
+
+até chega no 11 e ele para.

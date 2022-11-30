@@ -1,0 +1,15 @@
+Criando um metodo com parâmetro
+
+
+
+[HttpGet("Apresentar/{nome}")]
+        public ActionResult Apresentar(string nome)
+        {
+            var mensagem = $"Olá {nome}, Seja Bem-Vindo!";
+            return Ok(new { mensagem });
+        }
+    }
+
+
+
+o que está em {} é para ser sobrescrito, no swagger ira aparecer o input para coloca algo.

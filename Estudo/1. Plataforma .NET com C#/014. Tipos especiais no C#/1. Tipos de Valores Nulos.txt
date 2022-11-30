@@ -1,0 +1,36 @@
+nullable
+
+
+um tipo de valor nulo permite representar o tipo da variável e adicionalmente, o valor nulo.
+
+
+bool = true, false
+
+bool? = true, false, null
+
+
+ela acaba aceitando o valor null.
+
+
+nulo - nada, vazio, não tem valor.
+
+
+
+Exemplo, usuario com o email, três condições, Respondeu o email, Não respondeu, e não recebeu o email.
+
+
+
+
+bool? desejaReceberEmail = null;
+
+if(desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+{
+    Console.WriteLine("O usuário optou por receber o email");
+} else {
+    Console.WriteLine("O usuário optou em não receber o email ou não respondeu");
+}
+
+
+HasValue, algum valor diferente de nulo.
+
+Value, proprio valor dela.

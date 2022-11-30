@@ -1,0 +1,46 @@
+interface é um contrato que pode ser implementado por uma classe.
+
+é como se fosse uma classe abstrata, podendo definir métodos abstratos para serem implementados.
+
+
+
+assim como uma classe abstrata, uma interface não pode ser instanciada.
+
+
+
+
+pode se incluir metodos na interface, com o corpo.
+
+
+int Dividir(int num1, int num2)
+        {
+            return num1 / num2;
+        }
+
+não vai ser Herdar, aqui é Implementar..
+
+
+
+
+Nomenclatura padrão para interface, é começar com o I maiusculo
+
+exemplo aqui -> ICalculadora
+
+
+diferente na opção de new class, aqui é new interface.
+
+
+não se tem o public, private, não tem esses acessores.
+
+
+É UM CONTRATO, TUDO O QUE ESTIVER NA INTERFACE, TEM QUE ESTAR NA CLASS.
+
+
+
+
+ICalculadora calc = new Calculadora();
+
+
+Console.WriteLine(calc.Somar(300, 150));
+
+450

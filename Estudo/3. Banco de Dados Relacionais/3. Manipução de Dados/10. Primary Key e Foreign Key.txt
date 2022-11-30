@@ -1,0 +1,44 @@
+Primary Key: Chave única que identifica cada registro na tabela
+
+
+
+Foreign Key: Chave que identifica um registro existente em outra tabela
+
+
+
+Exemplo:
+
+
+PK
+
+Cliente 
+
+Id
+
+
+
+FK
+
+Endereço
+
+Id
+IdCliente
+
+
+
+
+
+
+
+adicionando a Foreign key na tabela de enderecos
+
+
+Criar um IdCliente nessa tabela de endereço, NÃO PODE SER AUTO_INCREMENT
+
+e no final
+
+
+CONSTRAINTS nomeDaFK FOREIGN KEY (IdCliente) REFERENCES Cliente(Id)
+
+
+CONSTRAINTS FK_Enderecos_Clientes FOREIGN KEY (IdCliente) REFERENCES Cliente(Id)

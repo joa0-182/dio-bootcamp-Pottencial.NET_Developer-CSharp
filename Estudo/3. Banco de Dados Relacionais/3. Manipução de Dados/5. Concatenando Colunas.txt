@@ -1,0 +1,11 @@
+Concatenar, junta as colunas
+
+
+Exemplo, na mesma coluna, quero ver o nome e a cor do produto
+
+
+SELECT Nome + ' - ' + Cor FROM PRODUTOS
+
+
+
+SELECT Nome + ', Cor: ' + Cor FROM PRODUTOS

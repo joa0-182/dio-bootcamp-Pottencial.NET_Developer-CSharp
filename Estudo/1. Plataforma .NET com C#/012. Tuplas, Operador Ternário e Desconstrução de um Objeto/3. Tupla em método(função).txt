@@ -1,0 +1,18 @@
+public class LeituraArquivo
+    {
+        public void LerArquivos(string caminho)
+        {
+            string[] linhas = File.ReadAllLines(caminho);
+
+            
+        }
+    }
+
+
+
+aqui, um metodo pode retorna apenas um tipo de informação, aqui ele quer retorna 3, ai que entra a tupla, para isso deve se mexer no public e abrir um conchete
+
+public (bool, string, int)
+
+
+public (bool, string[], int)

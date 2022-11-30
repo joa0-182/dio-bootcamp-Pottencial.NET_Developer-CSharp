@@ -1,0 +1,6 @@
+Bloco de codigos, que contem varias funções, que pode ser usado em vários lugares. Uma ação, o que ela te permite a fazer.
+
+
+Metodo Somar (n1 + n2)
+
+

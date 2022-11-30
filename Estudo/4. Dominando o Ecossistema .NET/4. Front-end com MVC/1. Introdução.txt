@@ -1,0 +1,17 @@
+Padrão MVC
+
+MVC(Model-View-Controller) separa um aplicativo em três grupos de componentes principais: Modelos, Exibições e Componetes. Esse padrão ajuda a obter a separação de interesses.
+
+
+View - pagina onde vai navegar diretamente do browser.
+
+
+O padrao MVC, se comunicam entre si, e cada um tem uma responsabilidade diferente.
+
+
+
+Model - entidade, o crud.
+
+View - visualização, pagina onde o usuario vai enxergar.
+
+Controller - ligação maior entre eles.
