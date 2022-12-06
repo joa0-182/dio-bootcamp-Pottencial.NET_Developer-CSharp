@@ -3,6 +3,10 @@
 Repositório criado para inserir os desafios/conteudos de códigos realizados no Bootcamp da Pottencial .NET Developer com o foco no desenvolvimento C#/Back-end, realizado na plataforma de estudos da DIO. (Digital Innovation One)
 
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/99850507/205900628-65b4dfae-b123-48aa-a423-37167caff6ce.png" width=300px>
+</p>
+
+<p align="center">
   <img src="https://user-images.githubusercontent.com/99850507/205508515-3a1e5d29-0c47-4e22-909f-c803996be7eb.png" width=800px>
 </p>
 
